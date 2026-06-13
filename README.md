@@ -1,50 +1,31 @@
 # HTB Archetype Walkthrough
 
-A clean, public-safe walkthrough for **Hack The Box - Starting Point - Archetype**.
+Public-safe walkthrough for Hack The Box Starting Point Archetype.
 
-This repository is designed to be published with GitHub Pages and submitted to HTB as a walkthrough URL.
+## Versions
 
-## Live page
+- English: `docs/index.html`
+- Français: `docs/fr/index.html`
 
-After enabling GitHub Pages, the final URL will look like this:
-
-```text
-https://<your-github-username>.github.io/<repo-name>/
-```
-
-Use that URL for the HTB walkthrough submission form.
-
-## Repository structure
+## Public URL after GitHub Pages
 
 ```text
-.
-├── README.md
-└── docs
-    ├── index.html
-    ├── walkthrough.md
-    ├── .nojekyll
-    └── assets
-        ├── archetype_walkthrough_htb_style.pdf
-        ├── cover.png
-        └── preview.jpg
+https://RedFlagDotBot.github.io/htb-archetype-walkthrough/
 ```
 
-## Publish with GitHub Pages
+French version:
 
-1. Push this repository to GitHub.
-2. Go to **Settings -> Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch `main` and folder `/docs`.
-5. Save.
-6. Wait a few minutes, then open the GitHub Pages URL.
+```text
+https://RedFlagDotBot.github.io/htb-archetype-walkthrough/fr/
+```
 
-## Notes
+## Content
 
-- Flags are redacted.
-- The final Administrator password is redacted.
-- This is not an official Hack The Box page.
-- The design is HTB-inspired, but does not reuse official assets or logos.
+- SMB enumeration
+- MSSQL access
+- xp_cmdshell
+- PowerShell history
+- PsExec
+- Defensive recommendations
 
-## Author
-
-Replace this section with your name, alias, LinkedIn, GitHub, and portfolio links.
+Flags and final Administrator credentials are redacted.
